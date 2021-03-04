@@ -27,7 +27,7 @@ func runAsService(){
 	svcConfig := &service.Config{
 		Name:        "Local DNS over HTTPS Server",
 		DisplayName: "DNS-HTTPS Server",
-		Description: "This server will listen for dns requests on localhost, and forwards them to a public dns over https server.",
+		Description: "This server will listen for dns requests, and forward them to a public dns over https server.",
 	}
 
 	prg := &program{}
